@@ -24,6 +24,12 @@
             app:destination="@id/finalFragment"
             app:popUpTo="@id/inicioFragment"
             app:popUpToInclusive="false" />
+        <argument
+            android:name="Texto"
+            app:argType="string" />
+        <argument
+            android:name="numero"
+            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/finalFragment"
